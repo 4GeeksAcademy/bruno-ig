@@ -1,0 +1,69 @@
+.card {
+  width: 400px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-html {
+  width: 30px;
+  height: 30px;
+  background-color: hsl(0, 0%, 93%);
+  margin-right: 10px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usuario {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.location {
+  font-size: 12px;
+}
+
+/* Imagen */
+.imagen img {
+  width: 100%;
+  display: block;
+}
+
+/* Iconos */
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.iconos-izq .icono {
+  margin-right: 3px;
+  display: inline-block;
+}
+
+/* Texto */
+.post-icons {
+  padding: 0 10px 15px 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.likes {
+  margin-bottom: 8px;
+}
