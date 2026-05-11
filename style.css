@@ -1,12 +1,12 @@
-.card {
+.post {
   width: 400px;
   border: 1px solid #dbdbdb;
   background-color: white;
   font-family: Arial, sans-serif;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
-.card-header {
+.post-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,17 +34,17 @@
   font-size: 14px;
 }
 
-.location {
-  font-size: 12px;
+.rigo {
+  font-size: 15px;
 }
 
-/* Imagen */
+
 .imagen img {
   width: 100%;
   display: block;
 }
 
-/* Iconos */
+
 .iconos {
   display: flex;
   justify-content: space-between;
@@ -57,12 +57,13 @@
   display: inline-block;
 }
 
-/* Texto */
+
 .post-icons {
   padding: 0 10px 15px 10px;
   font-size: 14px;
   line-height: 1.4;
 }
+
 
 .likes {
   margin-bottom: 8px;
